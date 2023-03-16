@@ -1,5 +1,8 @@
-from .http import HttpCore
+from .builder import ChatbotBuilder
 
-core = HttpCore()
 
-login = core.login
+builder = ChatbotBuilder()
+
+use = builder.use
+
+
